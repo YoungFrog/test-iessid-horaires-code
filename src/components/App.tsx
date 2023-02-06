@@ -210,6 +210,7 @@ const App = (props: CalendarConfig): JSX.Element => {
               'could not fetch events. please check connection and refresh.'
             )
           }}
+          eventColor="#EA8000"
         />
 
         {icsUrl && <CalLink link={icsUrl} />}
